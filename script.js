@@ -25,7 +25,7 @@ function playRound(playerSelection,computerSelection) {
 
 const playerSelection = " ";
 const computerSelection = computerPlay();
-console.log(playRound(playerSelection,computerSelection));
+playRound(playerSelection,computerSelection);
 
 function game () {
     for (let i=0; i < 4; i++) {
