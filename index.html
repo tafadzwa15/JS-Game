@@ -4,10 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="results">
+        <h1 class="gameText" id="playerText">Player: </h1>
+        <h1 class="gameText" id="computerText">Computer: </h1>
+        <h1 class="gameText" id="resultText">Result: </h1>
+        <div id="score">
+            <h2 id="playerScore">Player: </h2>
+            <h2 id="computerScore">Computer: </h2>
+        </div>
+    </div>
+    <section class="container">
+        <figure class="rock">
+            <img src="./images/rock.jpg" alt="Picture of a rock" width="200" height="200">
+            <figcaption>
+                <button class="choiceBtn">Rock</button>
+            </figcaption>
+        </figure>
+        <figure class="paper">
+            <img src="./images/paper.jpg" alt="A blank sheet of paper" width="200" height="200">
+            <figcaption>
+                <button class="choiceBtn">Paper</button>
+            </figcaption>
+        </figure>
+        <figure class="scissors">
+            <img src="./images/scissors.jpg" alt="A hand hold a scissors" width="200" height="200">
+            <figcaption>
+                <button class="choiceBtn">Scissors</button>
+            </figcaption>
+        </figure>
+    </section>
 </body>
 </html>
