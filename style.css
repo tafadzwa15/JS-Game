@@ -1,0 +1,12 @@
+body {
+    background: linear-gradient(to bottom, #f9544c 50%, #090c31 50%);
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+button {
+    display: flex;
+    justify-content: center;
+}
